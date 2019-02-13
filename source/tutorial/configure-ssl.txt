@@ -157,7 +157,7 @@ options with :binary:`~bin.mongod` and :binary:`~bin.mongos`:
   either the value ``allowSSL`` or ``preferSSL`` to set up the use of
   mixed TLS/SSL modes on a port. See :setting:`net.ssl.mode` for details.
 
-- :setting:`~net.ssl.PEMKeyfile` with the :file:`.pem` file that contains the
+- :setting:`~net.ssl.PEMKeyFile` with the :file:`.pem` file that contains the
   TLS/SSL certificate and key.
 
 Consider the following syntax for :binary:`~bin.mongod`:
@@ -220,7 +220,7 @@ following run-time options during startup:
   either the value ``allowSSL`` or ``preferSSL`` to set up the use of
   mixed TLS/SSL modes on a port. See :setting:`net.ssl.mode` for details.
 
-- :setting:`~net.ssl.PEMKeyfile` with the name of the :file:`.pem` file that
+- :setting:`~net.ssl.PEMKeyFile` with the name of the :file:`.pem` file that
   contains the signed TLS/SSL certificate and key.
 
 - :setting:`~net.ssl.CAFile` with the name of the :file:`.pem` file that
@@ -370,7 +370,7 @@ see :setting:`net.ssl.disabledProtocols` or the
 TLS/SSL Certificate Passphrase
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The PEM files for :setting:`~net.ssl.PEMKeyfile` and
+The PEM files for :setting:`~net.ssl.PEMKeyFile` and
 :setting:`~net.ssl.ClusterFile` may be encrypted. With encrypted PEM files,
 you must specify the passphrase at startup with a command-line or a
 configuration file option or enter the passphrase when prompted.
